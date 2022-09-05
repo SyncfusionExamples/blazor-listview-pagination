@@ -1,0 +1,32 @@
+{
+  "de-DE": {
+    "querybuilder": {
+      "AddGroup": "Gruppe hinzufügen",
+      "AddCondition": "Bedingung hinzufügen",
+      "DeleteRule": "Entfernen Sie diesen Zustand",
+      "DeleteGroup": "Gruppe löschen",
+      "Edit": "BEARBEITEN",
+      "SelectField": "Wählen Sie ein Feld aus",
+      "DeleteRule": "Entfernen Sie diesen Zustand",
+      "DeleteGroup": "Gruppe löschen",
+      "SelectOperator": "Operator auswählen",
+      "StartsWith": "Beginnt mit",
+      "EndsWith": "Endet mit",
+      "Contains": "Enthält",
+      "Equal": "Gleich",
+      "NotEqual": "Nicht gleich",
+      "LessThan": "Weniger als",
+      "LessThanOrEqual": "Weniger als oder gleich",
+      "GreaterThan": "Größer als",
+      "GreaterThanOrEqual": "Größer als oder gleich",
+      "Between": "Zwischen",
+      "NotBetween": "Nicht zwischen",
+      "In": "Im",
+      "NotIn": "Nicht in",
+      "Remove": "LÖSCHEN",
+      "ValidationMessage": "Dieses Feld wird benötigt",
+      "AND": "Und",
+      "OR": "Oder"
+    }
+  }
+}
