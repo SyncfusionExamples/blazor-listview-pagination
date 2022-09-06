@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using BlazorApp20.Data;
 using Syncfusion.Blazor;
 
 namespace BlazorApp20
@@ -29,7 +28,6 @@ namespace BlazorApp20
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddSyncfusionBlazor();
         }
 
