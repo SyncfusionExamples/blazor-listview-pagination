@@ -1,38 +1,14 @@
-# blazor-listview-pagination
+# Blazor ListView with Pagination
 
 This repository explains how to implement the Blazor ListView component with pagination support. 
 
-## How to run this application?
+## Prerequisites
 
-To run this application, you need to first clone the [`blazor-listview-pagination`](https://github.com/SyncfusionExamples/blazor-listview-pagination) repository and then navigate to its appropriate path where it has been located in your system.
+* Visual Studio 2022
 
-To do so, open the command prompt and run the below commands one after the other.
+## How to run the project
 
-```
-git clone https://github.com/SyncfusionExamples/blazor-listview-pagination 
-
-cd blazor-filemanager-pass-jwt-token
-
-```
-
-## Restore the NuGet package and build the application
-
-To restore the NuGet package, run the following command in root folder of the application.
-
-```
-dotnet restore
-```
-
-To build the application, run the following command.
-
-```
-dotnet build
-```
-
-## Running application
-
-After successful compilation, run the following command to run the application.
-
-```
-dotnet run
-```
+* Checkout this project to a location in your disk.
+* Open the solution file using the Visual Studio 2022.
+* Restore the NuGet packages by rebuilding the solution.
+* Run the project.
