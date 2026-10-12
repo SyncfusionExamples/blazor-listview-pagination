@@ -1,16 +1,16 @@
 ﻿@page "/"
-@using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Lists
 @using Syncfusion.Blazor.Data
 @using Syncfusion.Blazor.Navigations
 @using Syncfusion.Blazor
 
-<SfListBox TValue="string[]" TItem="VehicleData" Query="@DataQuery">
-    <ListBoxFieldSettings Text="Text" Value="Id" />
+<SfListView TValue="VehicleData" Query="@DataQuery">
+    <ListViewFieldSettings TValue="VehicleData" Text="Text" Id="Id" />
     <SfDataManager @ref="DataManagerRef" AdaptorInstance="@typeof(CustomAdaptor)"
                    Adaptor="Adaptors.CustomAdaptor">
     </SfDataManager>
-</SfListBox>
-<SfPager PageSize="1" TotalItemsCount="3" PageChanged="click">
+</SfListView>
+<SfPager PageSize="3" TotalItemsCount="@Vehicles.Count" PageChanged="click">
 </SfPager>
 
 @code {
@@ -37,7 +37,7 @@
 
     public void click(PageChangedEventArgs args)
     {
-        DataQuery = new Query().Skip((int)(3 * (args.CurrentPage) - 1)).Take(3);
+        DataQuery = new Query().Skip((int)((args.CurrentPage - 1) * 3)).Take(3);
     }
 
     public class CustomAdaptor : DataAdaptor
