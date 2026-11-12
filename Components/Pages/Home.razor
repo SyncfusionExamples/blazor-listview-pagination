@@ -1,8 +1,10 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 @using Syncfusion.Blazor.DropDowns
 @using Syncfusion.Blazor.Data
 @using Syncfusion.Blazor.Navigations
 @using Syncfusion.Blazor
+
 
 <SfListBox TValue="string[]" TItem="VehicleData" Query="@DataQuery">
     <ListBoxFieldSettings Text="Text" Value="Id" />
